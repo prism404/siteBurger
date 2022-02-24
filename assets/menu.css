@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* ------------- Header --------------- */
+
+.header {
+    background-color: #F7ECDE;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header img {
+    width: 40px;
+    float: left;
+    margin: 10px;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F7ECDE;
+}
+
+.header li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #54BAB9;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+}
+
+i {
+    display: block;
+    float: left;
+    padding: 22px 30px;
+    color: rgb(46, 46, 46);
+}
+
+.header .logo {
+    display: block;
+    float: left;
+    font-size: 25px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    font-family: 'Pacifico', cursive;
+}
+
+.menu {
+    cursor: pointer;
+    display: inline-block;
+    padding: 28px 20px;
+    position: relative;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    float: right;
+  }
+}
+
+/* -------------- Main ---------------- */
+
+.carousel-inner {
+    width: 100%;
+    max-height: 750px;
+}
+
+.container-burger {
+    margin: 15px;
+    padding: 15px;
+}
+
+.container-burger p {
+    color: #54BAB9;
+}
+
+/* ------------- Footer --------------- */
+
+#contact a {
+    color: #54BAB9;
+    margin: 25px 25px 0 0;
+  }
+  
+#contact {
+    color: #F7ECDE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #54BAB9;
+}
+  
+.icon {
+    background-color: #F7ECDE;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 12%), 0 2px 2px rgb(0 0 0 / 24%);
+}
+  
+#icon-container {
+    display: flex;
+    justify-content: center;
+}

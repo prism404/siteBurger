@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/menu.css">
+    <title>Menu</title>
+
+</head>
+<body>
+    
+    <header class="header">
+        <img src="img/burger-au-fromage.png" alt="">
+            <a href="" class="logo">Bun Bun</a>
+                <ul class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fas fa-shopping-basket"></i>
+                </ul>
+            </header>
+
+<main>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="900">
+            <img src="/img/avocado.jpg" class="d-block w-100" alt="un burger">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/buns.jpg" class="d-block w-100" alt="pain burger">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/donuts.jpg" class="d-block w-100" alt="une glace parfait">
+          </div>
+        </div>
+      </div>
+
+    <div class="container-burger row">
+        <div class="listbuns col-lg-3">
+            <p class="fw-bold fs-2">Choose your bun : <br></p>
+
+                    <input type="checkbox" id="plain" name="plain">
+                    <label for="plain">Plain</label><br>
+                        <input type="checkbox" id="sesame" name="sesame">
+                        <label for="sesame">Sesame seed</label><br>
+                            <input type="checkbox" id="pretzel" name="pretzel">
+                            <label for="pretzel">Pretzel</label><br>
+                                <input type="checkbox" id="brioche" name="brioche">
+                                <label for="brioche">Brioche</label><br>
+                            </div>
+
+        <div class="listpatty col-lg-3">
+            <p class="fw-bold fs-2">Choose your patty : <br></p>
+
+                <input type="checkbox" id="beef" name="beef">
+                <label for="beef">Beef</label><br>
+                    <input type="checkbox" id="chicken" name="chicken">
+                    <label for="chicken">Chicken</label><br>
+                        <input type="checkbox" id="salmon" name="salmon">
+                        <label for="salmon">Salmon</label><br>
+                            <input type="checkbox" id="blackbean" name="blackbean">
+                            <label for="blackbean">Black bean</label><br>
+    
+            </div>
+
+            <div class="listtoppers col-lg-3">
+                <p class="fw-bold fs-2">Choose your toppers : <br></p>
+    
+                <input type="checkbox" id="saladleaves" name="saladleaves">
+                <label for="saladleaves">Salad Leaves</label><br>
+                    <input type="checkbox" id="tomatoes" name="tomatoes">
+                    <label for="tomatoes">Tomatoes</label><br>
+                        <input type="checkbox" id="onions" name="onions">
+                        <label for="onions">Onions</label><br>
+                            <input type="checkbox" id="bacon" name="bacon">
+                            <label for="bacon">Cripsy Bacon</label><br>
+                </div>
+
+                <div class="listsauces col-lg-3">
+                    <p class="fw-bold fs-2">Choose your sauces : <br></p>
+        
+                    <input type="checkbox" id="ketchup" name="ketchup">
+                    <label for="ketchup">Ketchup</label><br>
+                        <input type="checkbox" id="bbq" name="bbq">
+                        <label for="bbq">BBQ</label><br>
+                            <input type="checkbox" id="mustard" name="mustard">
+                            <label for="mustard">Mustard</label><br>
+                                <input type="checkbox" id="mayo" name="mayo">
+                                <label for="mayo">Mayonnaise</label><br>
+                    </div>
+
+                    <button type="button" class="btn btn-dark btn-lg mt-4">Submit</button>
+                </div>
+            </div>
+        </main>
+
+    <footer id="contact">
+        <ul>
+            <div id="icon-container">
+                <a href="https://twitter.com/home" target="_blank">
+                    <div class="icon">
+                        <li><i class="fab fa-twitter"></i></li>
+                    </div>
+                </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                      <div class="icon">
+                        <li><i class="fab fa-instagram"></i></li>
+                      </div>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                      <div class="icon">
+                        <li><i class="fab fa-facebook-f"></i></li>
+                      </div>
+                    </a>
+                    <a href="https://outlook.live.com/owa/" target="_blank">
+                      <div class="icon">
+                        <li><i class="far fa-envelope"></i></li>
+                      </div>
+                    </a>
+                    <a href="https://www.google.com/" target="_blank">
+                      <div class="icon">
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                      </div>
+                    </a>
+                  </div>
+                </ul>
+            <p>&copy; 2022 - Bun Bun</p>
+        </footer>            
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</body>
+</html>
