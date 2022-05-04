@@ -1,0 +1,277 @@
+@import url("https://use.typekit.net/tij3zwt.css");
+/* font-family: droid-serif; */
+/* Droid sans font */
+
+@import url("https://use.typekit.net/tij3zwt.css");
+/* font-family: droid-sans, sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(83, 83, 83);
+}
+
+header {
+  margin: 0 0 5px 0;
+  padding: 15px 0 0 0;
+  background-image: url(/assets/misc/grille.png);
+  height: 165px;
+}
+
+h1,
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* _____________________ Header _____________________ */
+
+.headerMenu {
+  display: flex;
+  justify-content: center;
+}
+
+.imglogo {
+  padding: 15px 85px 0 0;
+  margin-right: 10px;
+}
+
+.headerMenu h2 {
+  font-weight: 800;
+  padding-right: 5px;
+}
+
+.headerMenu li {
+  padding: 3px;
+}
+
+.categoryMenu {
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
+  list-style: none;
+}
+
+.listMenu li {
+  font-family: "droid-sans";
+  color: grey;
+  font-size: 13px;
+}
+
+.titleMenu {
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  font-size: 18px;
+  color: rgb(100, 100, 100);
+}
+
+#hotelTitle {
+  border-bottom: 5px solid rgb(255, 115, 0);
+  padding-bottom: 5px;
+  margin-bottom: 3px;
+}
+
+#restoTitle {
+  border-bottom: 5px solid rgb(255, 214, 30);
+  padding-bottom: 5px;
+  margin-bottom: 3px;
+}
+
+#serviceTitle {
+  border-bottom: 5px solid rgb(166, 233, 103);
+  padding-bottom: 5px;
+  margin-bottom: 3px;
+}
+
+#activitiesTitle {
+  border-bottom: 5px solid rgb(47, 113, 212);
+  padding-bottom: 5px;
+  margin-bottom: 3px;
+}
+
+#moreTitle {
+  border-bottom: 5px solid rgb(195, 126, 216);
+  padding-bottom: 5px;
+  margin-bottom: 3px;
+}
+
+.videoContener {
+  padding: 15px 0px 15px 0px;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid rgba(206, 206, 206, 0.616);
+}
+
+#hotelVideo {
+  text-align: center;
+  padding: 40px;
+}
+
+#hotelVideo iframe {
+  border: 0px;
+}
+
+/* _____________________ Main _____________________ */
+
+.commentary1 {
+  background-image: url(/assets/misc/grille.png);
+  text-align: center;
+  font-size: 25px;
+}
+
+#fiveStar {
+  padding: 35px;
+}
+
+.mainContener {
+  display: flex;
+  justify-content: center;
+  padding: 45px 215px 45px 215px;
+  margin: 15px 0;
+  border: 1px solid rgba(206, 206, 206, 0.616);
+}
+
+.mainContener h2 {
+  color: rgb(247, 119, 0);
+  font-weight: 900;
+}
+
+.mainText {
+  font-family: "droid-sans";
+  color: rgb(102, 102, 102);
+  line-height: 32px;
+}
+
+.readMore {
+  font-style: italic;
+  font-family: "Droid serif";
+  font-size: 20px;
+  color: rgb(151, 151, 151);
+}
+
+.reviewImg {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.itemImg img {
+  border: 1px solid rgba(165, 165, 165, 0.774);
+  box-shadow: 0 0 0.5em rgba(80, 80, 80, 0.603);
+  margin: 2px;
+  padding: 8px;
+}
+
+.golf {
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid rgba(196, 196, 196, 0.616);
+}
+
+#golfBallImg {
+  max-width: 100%;
+  height: auto;
+}
+
+.datePubli {
+  font-style: italic;
+  font-family: "Droid-serif";
+  font-size: 13px;
+  color: rgb(151, 151, 151);
+  padding-top: 5px;
+}
+
+.centerCom {
+  padding: 15px;
+  margin: 10px;
+}
+
+.commentaires {
+  padding: 15px;
+  margin: 10px;
+}
+
+/* _____________________ Second part of Main _____________________ */
+
+.secondContener {
+  background-image: url(/assets/misc/grille.png);
+  display: flex;
+  justify-content: center;
+  padding: 40px 60px 40px 60px;
+  margin: 15px 0;
+}
+
+.blocs {
+  padding: 10px;
+  margin: 10px;
+}
+
+.blocs h2 {
+  color: rgb(148, 148, 148);
+}
+
+#jardiLand {
+  margin-left: 28px;
+}
+
+#lastTicket {
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.reviewCom {
+  font-family: "droid-sans";
+}
+
+#lastCom {
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+#blabla {
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+/* _____________________ Footer _____________________ */
+
+.footerContacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLinks p {
+  font-family: "droid-sans";
+  font-size: 13px;
+  color: rgb(151, 151, 151);
+  padding: 5px;
+  margin: 5px 0 5px 50px;
+}
+
+.icons {
+  margin: 5px 45px 0 0;
+}
+
+/* @mobile:      ~"only screen and (max-width: 529px)"; */
+/* @tablet:      ~"only screen and (min-width: 530px) and (max-width: 949px)";
+    @desktop:     ~"only screen and (min-width: 950px) and (max-width: 1128px)"; 
+    /* 48em = 768px 
+  
+    @media (min-width: 48em) {
+
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      float: right;
+    }
+} */
